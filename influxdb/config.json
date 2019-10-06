@@ -24,21 +24,21 @@
   "ports": {
     "80/tcp": null,
     "8086/tcp": 8086,
-    "8101/upd": 8101
+    "8101/udp": 8101
   },
   "ports_description": {
     "80/tcp": "Web interface (Not required for Hass.io Ingress)",
     "8086/tcp": "InfluxDB server",
-    "8101/upd": "InfluxDB server UDP"
+    "8101/udp": "InfluxDB server UDP rep"
   },
   "hassio_api": true,
   "auth_api": true,
   "hassio_role": "default",
   "homeassistant_api": false,
   "options": {
-    "auth": true,
+    "auth": false,
     "reporting": true,
-    "ssl": true,
+    "ssl": false,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem"
   },
