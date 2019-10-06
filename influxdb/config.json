@@ -49,5 +49,5 @@
     "keyfile": "str",
     "leave_front_door_open": "bool?"
   },
-  "image": "gogaonvic/influxdb-{arch}"
+  "image": "gogaonvic/influxdb"
 }
